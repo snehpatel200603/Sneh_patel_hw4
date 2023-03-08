@@ -1,0 +1,49 @@
+/* reset all of the defaults to 0 so that you can write your own CSS*/
+/* do not rely on browser DEfaults*/
+
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1{
+    text-align: center;
+    padding: 8px;
+}
+main{ text-align: center;}
+
+article{
+    border-radius: 4px;
+    border-color: white;
+    border-style: dashed;
+
+    border: 8px solid red;
+
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding: 200px 300px 200px 300px;
+
+    text-align: center;
+}
+
+article > h2{
+    color: greenyellow;
+    padding: 4px 6px;
+
+}
+
+ul{
+    list-style: none;
+}
