@@ -33,9 +33,14 @@ article{
     margin-right: 12px;
     margin-top: 20px;
     margin-bottom: 20px; 
+feature-base-branch
     
 
+   
+ main
+
     text-align: center;
+    width: 25%;
 }
 
 article > h2{
@@ -46,4 +51,41 @@ article > h2{
 
 ul{
     list-style: none;
+}
+
+article:first-of-type{
+    border-color: blue;
+}
+
+article:first-of-type h2{
+    color: aqua;
+
+}
+
+#inprogress{ border-color: darkorange;}
+#inprogress h2{ color: deepskyblue}
+
+
+#done{ border-color: blueviolet; }
+#done h2{ color: mediumseagreen;}
+
+ul li{
+    padding: 6px  8px;
+    text-transform: uppercase;
+    color: gold;
+
+}
+
+ #todo li:nth-child(odd) {
+    background-color: rgba(255,255,255,0.2);
+
+
+}
+
+#inprogress li:nth-child(even){
+    background-color: rgba(0,255,0,0.5);
+}
+
+#done li:nth-child(6){
+    background-color: rgba(0,0,255,0.4);
 }
