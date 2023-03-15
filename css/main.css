@@ -82,6 +82,27 @@ ul li{
     background-color: rgba(0,255,0,0.5);
 }
 
-#done li:nth-child(6){
+#done li:nth-child(odd){
     background-color: rgba(0,0,255,0.4);
+}
+
+/* RESPONSIVE CODE */
+article{
+    width: 100%;
+    margin: 15px 0px;
+}
+
+main{
+    margin: 0 12px;
+}
+
+@media(min-width:960px) {
+    article{
+        width: 25%;
+        margin: 10px 12px;
+    }
+    main{
+        margin: 0;
+    }
+    
 }
