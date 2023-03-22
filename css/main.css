@@ -40,7 +40,7 @@ article{
     border-color: white;
     border-style: dashed;
 
-    border: 8px solid red;
+    border: 8px solid rgb(255, 94, 0);
 
     display: inline-block;
     margin-left: 12px;
@@ -58,7 +58,7 @@ feature-base-branch
 }
 
 article > h2{
-    color: greenyellow;
+    color: rgb(255, 241, 47);
     padding: 4px 6px;
 
 }
